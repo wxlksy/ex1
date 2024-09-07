@@ -6,19 +6,19 @@
 
 fun main()
 {
-    val input = "AAADSSSRRTTHAAAA"
+    val s = "AAADSSSRRTTHAAAA"
     var result = ""
 
     var count = 1
-    for ( i in 1 until input.length)
+    for ( i in 1 until s.length)
     {
-        if (input[i] == input [i - 1])
+        if (s[i] == s [i - 1])
         {
             count++
         }
         else
         {
-            result += input[i - 1]
+            result += s[i - 1]
             if (count > 1)
             {
                 result += count
@@ -27,7 +27,7 @@ fun main()
         }
     }
 
-    result += input.last()
+    result += s.last()
     if (count > 1)
     {
         result += count
