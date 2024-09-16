@@ -1,3 +1,7 @@
+![Kotlin](https://img.shields.io/badge/Kotlin-9A00F5.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+# ex1
+
 Создать приложение, которое подсчитывает количество подряд идущих одинаковых символов во введенной строке.
 
 На вход подается, например, строка AAADSSSRRTTHAAAA. 
